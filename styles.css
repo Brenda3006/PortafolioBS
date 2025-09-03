@@ -8,6 +8,7 @@ body {
   background: #111;
   background-color: #0f0f0f;
   color: #f0f0f0;
+  font-size: 1rem;
 }
 
 .background {
@@ -413,4 +414,23 @@ pre {
 .contacto-texto-final{
   text-align: center;
   color: #e68900;
+}
+
+body {
+  font-size: 1rem;
+  /* más estilos... */
+}
+
+/* Tablets y pantallas medianas */
+@media (min-width: 768px) {
+  .container {
+    padding: 2rem;
+  }
+}
+
+/* Escritorios grandes */
+@media (min-width: 1024px) {
+  .nav-menu {
+    display: flex;
+  }
 }
