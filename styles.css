@@ -482,4 +482,14 @@ html, body {
     font-size: .5rem; 
   }
 
+  .study-text {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Opcional: separa el título del párrafo un poco */
+.study-text h3 {
+  margin-bottom: 5px;
+}
+
 }
