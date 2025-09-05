@@ -132,8 +132,7 @@ section h2 {
   text-align: center;
 }
 
-/* tarjetas base */
-/*estudios*/
+/*ACADEMICOS*/
 .logo-uanl {
   display: block;
   margin: 0 auto 20px;
@@ -212,7 +211,7 @@ section h2 {
   opacity: 1;
 }
 
-/*termian Estudios*/
+/*termian ACADEMICOS*/
 
 /* habilidades */
 .skills {
@@ -455,7 +454,7 @@ pre {
 
 @media (max-width: 600px) {
 
-  body {
+/*  body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     background: #111;
@@ -531,6 +530,6 @@ pre {
     height: auto;
     flex-shrink: 0;
     border-radius: 4px;
-  }
+  }*/
 
 }
