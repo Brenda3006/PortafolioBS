@@ -474,13 +474,13 @@ html, body {
 /*  padding: 100px 20px;*/
 }
 
- .study-card h3 {
+/* .study-card h3 {
     font-size: 1rem; 
   }
-
   .study-card p {
-    font-size: .9rem; 
-  }
+    font-size: .5rem; 
+  }*/
+
 
   .study-text {
   display: flex;
