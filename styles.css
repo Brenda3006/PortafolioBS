@@ -474,7 +474,11 @@ html, body {
 /*  padding: 100px 20px;*/
 }
 
- .study-card h1 {
+ .study-card h3 {
+    font-size: 1rem; 
+  }
+
+  .study-card p {
     font-size: .5rem; 
   }
 
