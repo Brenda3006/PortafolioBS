@@ -30,7 +30,7 @@ body {
 main {
   position: relative;
   z-index: 1;
-  padding: 100px 20px;
+/*  padding: 100px 20px;*/
 }
 
 #video-fondo {
@@ -151,10 +151,10 @@ section h2 {
 }
 
 .study-card {
-  flex: 1 1 300px;
+  flex: 1 1 100%;
   max-width: 400px;
   background: #222;
-  min-width: 250px;
+  min-width: 0px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   opacity: 0;
   transition: all 0.8s ease-out;
