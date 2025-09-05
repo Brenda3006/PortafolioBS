@@ -30,7 +30,6 @@ body {
 main {
   position: relative;
   z-index: 1;
-/*  padding: 100px 20px;*/
 }
 
 #video-fondo {
@@ -451,45 +450,44 @@ pre {
   box-sizing: border-box;
 }
 
+.video-responsive {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  object-fit: cover;
+  max-height: 250px;
+}
+
 
 
 @media (max-width: 600px) {
 html, body {
-  
   font-family: 'Poppins', sans-serif;
   background: #111;
   background-color: #0f0f0f;
   color: #f0f0f0;
-/*  padding: 20px;
-  max-width: 600px;*/
   margin: auto;
   scroll-behavior: smooth;
   font-size: 1rem;
   overflow-x: hidden;
   }
 
-  main {
+/*  main {
   position: relative;
   z-index: 1;
-/*  padding: 100px 20px;*/
-}
+}*/
 
-/* .study-card h3 {
-    font-size: 1rem; 
-  }
-  .study-card p {
-    font-size: .5rem; 
-  }*/
-
-
+/* Cards Academicos Responsive*/
   .study-text {
   display: flex;
   flex-direction: column;
 }
 
-/* Opcional: separa el título del párrafo un poco */
 .study-text h3 {
   margin-bottom: 5px;
 }
+
+
 
 }
