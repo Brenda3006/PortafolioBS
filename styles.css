@@ -469,7 +469,7 @@ html, body {
   }
 
   main {
-  position:fixed;
+  position: relative;
   z-index: 1;
 /*  padding: 100px 20px;*/
 }
