@@ -1,6 +1,28 @@
 /* Nombre: Brenda Alicia Solis Calderon 
       Fecha: 24/08/2025
       Descripcion: Portafolio cv */
+
+const toggleBtn = document.getElementById('toggle-theme');
+const body = document.body;
+
+// Cargar tema previamente guardado (opcional)
+if (localStorage.getItem('theme') === 'dark') {
+  body.classList.add('dark-mode');
+  toggleBtn.textContent = '☀️ Cambiar a claro';
+}
+
+toggleBtn.addEventListener('click', () => {
+  body.classList.toggle('dark-mode');
+
+  if (body.classList.contains('dark-mode')) {
+    toggleBtn.textContent = '☀️ Cambiar a claro';
+    localStorage.setItem('theme', 'dark');
+  } else {
+    toggleBtn.textContent = '🌙 Cambiar a oscuro';
+    localStorage.setItem('theme', 'light');
+  }
+});
+
 const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
