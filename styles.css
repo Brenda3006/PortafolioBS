@@ -9,6 +9,7 @@ body {
   background-color: #0f0f0f;
   color: #f0f0f0;
   font-size: 1rem;
+  
 }
 
 .background {
@@ -417,11 +418,6 @@ pre {
   color: #e68900;
 }
 
-body {
-  font-size: 1rem;
-  /* más estilos... */
-}
-
 * {
   box-sizing: border-box;
 }
@@ -429,6 +425,12 @@ body {
 
 
 @media (max-width: 600px) {
+
+  body {
+  font-size: 1rem;
+  overflow-x: hidden;
+  /* más estilos... */
+}
   h1 {
     font-size: 0.875rem;
     line-height: 1.2;
@@ -463,12 +465,12 @@ body {
   filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.2));
 }
 
-/*.container {
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 1rem;
-}*/
+}
 
 .study-card {
   flex: 1 1 300px; 
